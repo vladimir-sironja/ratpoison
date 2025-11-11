@@ -1,0 +1,6 @@
+1) aclocal fix
+./configure may hit: "syntax error near unexpected token PKG_CHECK_MODULES"
+see https://stackoverflow.com/questions/6758442/pkg-check-modules-breaking-in-solaris?rq=1
+find pkg.m4 in /usr/share/aclocal and copy to build dir and ./m4
+
+
